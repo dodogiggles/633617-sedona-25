@@ -1,0 +1,182 @@
+body {
+    min-width: 320px;
+    margin: 0;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+
+    background-color: #f2f2f2f2;
+    background-image: url("../../img/background-photo.png"), url("../../img/welcome.svg"), url("../../img/polygon.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+a {
+    text-decoration: none;
+}
+.main-header {
+    margin-bottom: 552px;
+}
+.main-navigation {
+    font-weight: 700;
+    color: #000000;
+    background-color: #f2f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+}
+.site-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative; 
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.site-navigation a {
+    color: #000000;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #81b3d2;
+}
+.site-navigation a:active {
+    color: #000000;
+    opacity: .3;
+}
+.main-header-logo {
+  position: absolute;
+  order: 2;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.intro b {
+    font-size: 21px;
+    font-weight: 700;
+}
+.dates-of-trip h2 {
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 700;
+}
+.button {
+    font: inherit;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: none;
+}
+.button-brown {
+    background-color: #766357;
+}
+.button-blue {
+    background-color: #81b3d2;
+}
+.search-form {
+    font: inherit;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+}
+.button:active {
+opacity: .3;
+}
+.button-brown:hover,
+.button-brown:focus {
+    background-color: #604e43;
+}
+.button-brown:active {
+    background-color: #503e33;
+}
+.button-blue:hover,
+.button-blue:focus {
+    background-color: #669ec0;
+}
+.button-blue:active {
+    background-color: #5496bd;
+}
+.search-form input {
+    font: inherit;
+    font-weight: 700;
+    color: #000000;
+    text-transform: uppercase;
+    background-color: #f2f2f2;
+}
+.search-form input:hover {
+background-color: #ebebeb;
+}
+.search-form input:focus {
+    background-color: #ffffff;
+    border: 2px solid #e5e5e5;
+}
+.main-footer {
+    background-color: #f9fbf6;
+    opacity: .9;
+}
+.footer-hashteg {
+    font: inherit;
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;
+    text-align: left;
+}
+.footer-social {
+    text-align: center;
+}
+.footer-social ul {
+    list-style: none;
+}
+.social-button {
+    color: #ffffff;
+}
+.footer-copyright {
+    font: inherit;
+    color: #000000;
+    text-align: right;
+}
+.main-catalog h3 {
+    font: inherit;
+    font-size: 21px;
+    font-weight: 700;
+    color: #000000;
+}
+.main-catalog h3:hover,
+.main-catalog h3:focus {
+    color: #81b3d2;
+}
+.main-catalog h3:active {
+    color: #cacaca;
+}
+.hotel-cost {
+    font: inherit;
+    line-height: 21px;
+}
+.rating {
+    font: inherit;
+    line-height: 21px;
+    color: #666666;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+.more-info {
+    font: inherit;
+    line-height: 21px;
+    color: #ffffff;
+}
+.booking {
+    font: inherit;
+    line-height: 21px;
+    color: #ffffff;
+}
